@@ -1,0 +1,28 @@
+.CreateTodoButton {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 25px;
+    right: 10px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 50px;
+    transform: translate(0deg);
+    transition: 0.5s transform;
+    font-size: 24px;
+    filter: drop-shadow(1px 1px 15px rgb(0, 140, 255));
+}
+
+.CreateTodoButton:hover {
+    transform: rotate(135deg);
+    transition: 0.5s transform;
+}
+
+
+
+@media screen and (min-width: 700px){
+    .CreateTodoButton {
+        bottom: 100px;
+        right: 400px;
+    }
+} 

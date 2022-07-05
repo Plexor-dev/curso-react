@@ -1,0 +1,43 @@
+.TodoItem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        border: 2px solid black;
+        width: 300px;
+        min-height: 35px;
+        margin-top: 10px;
+        border-radius: 8px;
+    }
+
+    .TodoItem__p {
+        padding: 5px;
+        margin: 0px;
+    }
+
+    .TodoItem__p-active {
+    text-decoration: line-through;
+    opacity: 0.5;
+    }
+
+    .TodoItem__check {
+        position: absolute;
+        left: 12px;
+        color: pink;
+        cursor: pointer;
+    }
+
+    .TodoItem__check-active {
+        color: green;
+    }
+
+    .TodoItem__cross {
+        filter:sepia();
+        position: absolute;
+        right: 0;
+        cursor: pointer;
+    }
+
+    .TodoItem__cross:hover {
+        filter: none;
+    }
